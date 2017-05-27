@@ -1,0 +1,75 @@
+Создайте следующие переменные:
+Переменную, которая будет носить имя сайта;
+var name = "Имя сайта";
+Переменную-массив для меню сайта;
+var menu = ["Главная", "Каталог", "Сотрудничество", "Контакты"];
+Переменную для размещения количества статей на одной странице сайта;
+var count =0;
+Переменную для заголовков статей;
+var title = "Заголовок";
+Переменную для обычных статей;
+var article = "Статья";
+Переменную для статей особой важности;
+var importantarticle = "Важное";
+Переменную для юмористических статей;
+var humorarticle = "Юмористическая статья";
+Переменную для статей из блока “А если о серьезном”.;
+var seriousarticle = "А если о серьезном";
+Логическую переменную, говорящей о том будет картинка у статьи или нет;
+var picture = false;
+Переменную для цены любого товара. 
+var price = 0;
+
+Исправить ошибки:
+<script>
+var tosad = "This is Sparta!!!";
+var result = true;  
+var entage = 20;
+var header = "Заголовок новой статьи";
+var zip_code = "983456";
+var a = Prompt("Введите хоть что-нибудь");
+alert ("Вы точно все ввели?");
+var var1 = 25;
+var var2 = " Орехов";
+alert ("Вы нашли "+var1+var2);
+var var3 = "45";
+var var4 = 20;
+console.log (parseInt(var3)+var4);
+</script>
+
+Определить типы переменных:
+var art = "25 / 5"; (string)
+var same = null; (object)
+var scoop; (undefined)
+var flag = 0; (number)
+var plat = true; (boolean)
+var devid = 34 / 7; (number)
+var person = {lastname: Ivan} - c ошибкой, но var person = {lastname: "Ivan"} - object
+var fruits = ['apple']; (object)
+var iceCream = function() { alert('Я люблю мороженое'); } (function)
+
+Найдите длину следующих строк:
+1. var a = "JavaScript is a high-level, dynamic, untyped, and interpreted programming language".length; //82
+2. var b = "Netscape Communications realized that the Web needed to become more dynamic".length; //75
+3. var c = "JavaScript was realized in ten days".length; //35
+
+Выведите следующие строки в верхнем регистре. Результат присвойте переменной.
+1. var v1 = "console.log".toUpperCase();
+2. var v2 = "Hello World!".toUpperCase();
+3. var v3 = 'I need more code on JavaScript'.toUpperCase();
+
+Переменные из предыдущего задания преобразуйте в нижний регистр.
+1. v1 = v1.toLowerCase();
+2. v2 = v2.toLowerCase();
+3. v3 = v3.toLowerCase();
+
+Преобразуйте в верхний регистр, только первые буквы.
+function capitalize(str){
+var fLetter = str.charAt(0);
+return fLetter.toUpperCase() + str.slice(1);
+}
+console.log(capitalize(v1));/ alert(capitalize(v1));
+console.log(capitalize(v2));
+console.log(capitalize(v3));
+
+
